@@ -12,15 +12,18 @@
 
     <header>
         <h1 style="text-align: center; flex-grow: 1; color:white;">Flower Gallery</h1>
-        <button class="btn nav-link" style="justify-content: flex-end;">
-            <a href="mission_02.html">Home</a>
+        <button class="go-back" onclick="goBack()">Go Back</button>
     </header>
 
     <div class="carousel-container">
-        <div id="gallery" class="gallery-container"></div>
+        <div id="gallery" class="gallery-container">
+            <!-- Images will be added here by JavaScript -->
+        </div>
         <button class="prev" onclick="prevSlide()">&#10094;</button>
         <button class="next" onclick="nextSlide()">&#10095;</button>
     </div>
+
+
 
 </body>
 </html>
