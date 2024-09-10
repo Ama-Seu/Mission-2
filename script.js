@@ -27,14 +27,14 @@ images.forEach(src => {
     galleryContainer.appendChild(img);
 });
 
-// Loops through each image path in the images array // 
-// The forEach loop goes through each image path in the images array and performs the following actions:
+// Loops through each image path in the images array
+// The forEach loop goes through each image path in the images array and does the following:
 // Creates a new <img> element.
 // Sets its src attribute to the current image path.
 // Adds the <img> element to the galleryContainer.
 // This process ensures that all the images in the images array are dynamically added to the carousel and displayed on the webpage.
 
-let currentIndex = 0; // 
+let currentIndex = 0; // Shows the current image on display
 
 // === SHOWSLIDE FUNCTION === //
 
