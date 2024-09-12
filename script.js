@@ -77,3 +77,9 @@ showSlide(currentIndex);
 function goBack() {
     window.location.href = 'mission_02.html'; 
 }
+
+// === Comments for funtcions simplified === //
+// showSlide(index): Updates which image is visible.
+// nextSlide(): Moves to the next image.
+// prevSlide(): Moves to the previous image.
+// goBack(): Redirects to another page
